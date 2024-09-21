@@ -14,12 +14,13 @@ body {
 
 #start-button {
     padding: 10px 20px;
-    font-size: 4vw; /* passt die Button-Größe an die Breite des Viewports an */
+    font-size: 2.5vw; /* Kleinere Schriftgröße für mobile Bildschirme */
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px; /* Fügt Abstand zwischen den Bildern und dem Button hinzu */
 }
 
 /* Optional: Du kannst diesen Container anpassen, um auch den Button mit dem Umschlag zentriert zu haben */
@@ -28,12 +29,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw; /* passt die Breite des Containers an den Viewport an */
-    height: 100vh; /* passt die Höhe des Containers an den Viewport an */
+    width: 100vw;
+    height: 100vh;
 }
 
 img {
-    max-width: 90vw; /* passt die Bilder an die Bildschirmbreite an */
+    max-width: 80vw; /* Passt die Bilder an die Bildschirmbreite an */
     height: auto;
 }
-
