@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden; /* verhindert das Scrollen */
 }
 
 #envelope, #words {
@@ -13,7 +14,7 @@ body {
 
 #start-button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 4vw; /* passt die Button-Größe an die Breite des Viewports an */
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -27,7 +28,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw; /* passt die Breite des Containers an den Viewport an */
+    height: 100vh; /* passt die Höhe des Containers an den Viewport an */
 }
 
-
+img {
+    max-width: 90vw; /* passt die Bilder an die Bildschirmbreite an */
+    height: auto;
+}
 
